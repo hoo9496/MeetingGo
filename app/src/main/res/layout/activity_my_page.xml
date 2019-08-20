@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeded"
+    android:id="@+id/drawer"
+    tools:context=".MyPageActivity">
+
+    <!-- 내 정보 화면 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="My Page"/>
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/loading_image" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="닉네임"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp" >
+
+            <Button
+                android:id="@+id/btnPhotoEdit"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="프로필 사진 수정" />
+
+            <Button
+                android:id="@+id/btnProfileEdit"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="프로필 내용 수정" />
+
+            <Button
+                android:id="@+id/btnMemberWithdraw"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="회원 탈퇴" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        app:headerLayout="@layout/sidebar"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        app:itemTextColor="@color/colorPrimaryDark"
+        android:layout_gravity="start">
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeded"
+    android:id="@+id/drawer"
+    tools:context=".FillterChoiceActivity">
+
+    <!-- 소개 조건 선택 화면 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_fillter_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/bodyType"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableStart="@drawable/ic_location_on_black_24dp"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:text="같은 지역에 거주하는 이성" />
+
+        <Button
+            android:id="@+id/btn_fillter_job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/bodyType"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableStart="@drawable/ic_work_black_24dp"
+            android:drawableLeft="@drawable/ic_work_black_24dp"
+            android:text="같은 직종의 이성" />
+
+        <Button
+            android:id="@+id/btn_fillter_religion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/bodyType"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableStart="@drawable/ic_account_balance_black_24dp"
+            android:drawableLeft="@drawable/ic_account_balance_black_24dp"
+            android:text="같은 종교의 이성" />
+
+        <Button
+            android:id="@+id/btn_fillter_no_smoking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/bodyType"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableStart="@drawable/ic_smoke_free_black_24dp"
+            android:drawableLeft="@drawable/ic_smoke_free_black_24dp"
+            android:text="흡연을 하지 않는 이성" />
+
+        <Button
+            android:id="@+id/btn_fillter_blood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/bodyType"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawableStart="@drawable/ic_invert_colors_black_24dp"
+            android:drawableLeft="@drawable/ic_invert_colors_black_24dp"
+            android:text="같은 혈액형의 이성" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        app:headerLayout="@layout/sidebar"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        app:itemTextColor="@color/colorPrimaryDark"
+        android:layout_gravity="start">
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

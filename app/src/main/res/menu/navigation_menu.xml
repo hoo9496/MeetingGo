@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navi_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="홈" />
+    <item
+        android:id="@+id/navi_introduction"
+        android:icon="@drawable/ic_wc_black_24dp"
+        android:title="이성 소개" />
+    <item
+        android:id="@+id/navi_filltering"
+        android:icon="@drawable/ic_playlist_add_check_black_24dp"
+        android:title="필터링 이성 소개" />
+    <item
+        android:id="@+id/navi_hartList"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="하트리스트" />
+    <item
+        android:id="@+id/navi_mypage"
+        android:icon="@drawable/ic_person_pin_black_24dp"
+        android:title="마이페이지" />
+
+</menu>

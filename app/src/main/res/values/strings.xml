@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">MeetingApp</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="age">
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40 이상</item>
+    </string-array>
+
+    <string-array name="blood">
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+
+    <string-array name="bodyType">
+        <item>슬림한</item>
+        <item>보통</item>
+        <item>글래머</item>
+        <item>근육질</item>
+        <item>건장한</item>
+        <item>통통한</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>서울</item>
+        <item>경기도</item>
+        <item>강원도</item>
+        <item>충청북도</item>
+        <item>충청남도</item>
+        <item>경상북도</item>
+        <item>경상남도</item>
+        <item>전라북도</item>
+        <item>전라남도</item>
+        <item>제주도</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>무직</item>
+        <item>회사원</item>
+        <item>학생</item>
+        <item>교사</item>
+        <item>공무원</item>
+        <item>자영업</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="religion">
+        <item>기독교</item>
+        <item>불교</item>
+        <item>천주교</item>
+        <item>유교</item>
+        <item>원불교</item>
+        <item>종교없음</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="smoking">
+        <item>비흡연</item>
+        <item>흡연</item>
+    </string-array>
+
+    <string-array name="alcohol">
+        <item>못마심</item>
+        <item>3잔 이하</item>
+        <item>3잔 ~ 1병</item>
+        <item>1병 ~ 2병</item>
+        <item>2병 ~ 3병</item>
+        <item>3병 이상</item>
+    </string-array>
+
+    <string-array name="fillterListItem">
+        <item>나와 같은 종교</item>
+        <item>나와 같은 취미</item>
+        <item>나와 같은 지역</item>
+        <item>흡연</item>
+    </string-array>
+
+    <string-array name="settingListItem">
+        <item>PUSH 알림</item>
+        <item>지인차단</item>
+        <item>로그아웃</item>
+        <item>회원탈퇴</item>
+    </string-array>
+
+</resources>
